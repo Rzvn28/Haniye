@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hanieh Motamedi · Psychology Student</title>
+  <meta name="description" content="Hanieh Motamedi (حانیه معتمدی), psychology student interested in human behavior, psychological research, painting and visual design.">
+  <meta name="theme-color" content="#4B3F66">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyByeD0nMTQnIGZpbGw9JyM0QjNGNjYnLz48cGF0aCBkPSdNMTYgNTJWMjhhMTYgMTYgMCAwIDEgMzIgMHYyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPScjRTZERkYxJyBzdHJva2Utd2lkdGg9JzQnLz48Y2lyY2xlIGN4PSczMicgY3k9JzMwJyByPSc1JyBmaWxsPScjRjZFRkU0Jy8+PC9zdmc+">
+  <link rel="preload" href="cormorant-garamond-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="Vazirmatn-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a class="nav__brand" href="#home" data-i18n="brand">Hanieh Motamedi</a>
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navPanel" aria-label="Menu" data-i18n-aria="menu">
+        <span class="nav__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <div class="nav__panel" id="navPanel">
+        <ul class="nav__links">
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#psychology" data-i18n="nav.psychology">Psychology</a></li>
+          <li><a href="#art" data-i18n="nav.art">Art</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <button class="lang-btn" id="langToggle" type="button" lang="fa" dir="rtl" aria-label="نمایش به فارسی">فارسی</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. Home -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <p class="label" data-i18n="hero.label">Portfolio</p>
+          <h1 class="hero__name" id="hero-title" lang="en" dir="ltr">Hanieh Motamedi</h1>
+          <p class="hero__fa" lang="fa" dir="rtl">حانیه معتمدی</p>
+          <p class="hero__title" data-i18n="hero.title">Psychology Student</p>
+          <p class="hero__bio" data-i18n="hero.bio">A psychology student interested in human behavior, psychological research, painting, and visual design.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#about" data-i18n="hero.about">About me</a>
+            <a class="btn btn--ghost" href="#gallery" data-i18n="hero.gallery">View gallery</a>
+          </div>
+        </div>
+        <figure class="hero__media reveal">
+          <div class="hero__shape" aria-hidden="true"></div>
+          <div class="arch">
+            <img src="profile.webp" width="848" height="1264" decoding="async" fetchpriority="high"
+                 alt="Hanieh, in a lavender hijab, seen from behind while painting at an easel" data-i18n-alt="alt.profile">
+          </div>
+          <figcaption class="hero__cap" data-i18n="hero.caption">Between the mind and the canvas</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 2. About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <figure class="about__media frame frame--wide reveal">
+          <img src="about.webp" width="1376" height="768" loading="lazy" decoding="async"
+               alt="A calm desk by a window with books and sketches" data-i18n-alt="alt.about">
+        </figure>
+        <div class="about__text reveal">
+          <p class="label" data-i18n="about.label">About me</p>
+          <h2 class="h2" id="about-title" data-i18n="about.title">Understanding people through science and colour</h2>
+          <p data-i18n="about.p1">I'm a psychology student drawn to the questions behind human behavior: why we think, feel and act the way we do. I enjoy reading psychological research and learning how careful methods turn curiosity into understanding.</p>
+          <p data-i18n="about.p2">Painting and visual design are the other half of who I am. Working with colour, composition and form helps me observe more closely and express what words can't always hold.</p>
+          <dl class="facts">
+            <div class="fact"><dt data-i18n="fact.field.k">Field</dt><dd data-i18n="fact.field.v">Psychology</dd></div>
+            <div class="fact"><dt data-i18n="fact.focus.k">Focus</dt><dd data-i18n="fact.focus.v">Human behavior &amp; research</dd></div>
+            <div class="fact"><dt data-i18n="fact.creative.k">Creative side</dt><dd data-i18n="fact.creative.v">Painting &amp; visual design</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Psychology -->
+    <section class="section section--cream" id="psychology" aria-labelledby="psy-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="label" data-i18n="psy.label">Psychology</p>
+          <h2 class="h2" id="psy-title" data-i18n="psy.title">What I study and wonder about</h2>
+        </header>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="mind.webp" width="1400" height="764" loading="lazy" decoding="async" alt="" ></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="psy.c1.t">Human Behavior</h3>
+              <p data-i18n="psy.c1.d">Emotions, motivation and the patterns behind everyday choices.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="psychology.webp" width="1400" height="764" loading="lazy" decoding="async" alt=""></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="psy.c2.t">Psychological Research</h3>
+              <p data-i18n="psy.c2.d">How studies are designed, measured and interpreted.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="reading.webp" width="1400" height="764" loading="lazy" decoding="async" alt=""></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="psy.c3.t">Reading &amp; Learning</h3>
+              <p data-i18n="psy.c3.d">Books and papers that widen how I see the mind.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Art -->
+    <section class="section section--lavender" id="art" aria-labelledby="art-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="label" data-i18n="art.label">Art</p>
+          <h2 class="h2" id="art-title" data-i18n="art.title">Where colour meets thought</h2>
+        </header>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="painting.webp" width="1400" height="764" loading="lazy" decoding="async" alt=""></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="art.c1.t">Painting</h3>
+              <p data-i18n="art.c1.d">Layering colour and light to give feelings a visible form.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="design.webp" width="1400" height="764" loading="lazy" decoding="async" alt=""></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="art.c2.t">Visual Design</h3>
+              <p data-i18n="art.c2.d">Balance, palette and the quiet beauty of detail.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="frame frame--card"><img src="g-illustration.webp" width="1400" height="764" loading="lazy" decoding="async" alt=""></div>
+            <div class="card__body">
+              <h3 class="h3" data-i18n="art.c3.t">Illustration</h3>
+              <p data-i18n="art.c3.d">Small imagined worlds drawn with ink and gouache.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Gallery -->
+    <section class="section" id="gallery" aria-labelledby="gal-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="label" data-i18n="gal.label">Gallery</p>
+          <h2 class="h2" id="gal-title" data-i18n="gal.title">Fragments of inspiration</h2>
+        </header>
+        <div class="filters reveal" role="group" aria-label="Filter gallery" data-i18n-aria="gal.filterLabel">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true" data-i18n="gal.all">All</button>
+          <button class="filter" type="button" data-filter="art" aria-pressed="false" data-i18n="gal.art">Art</button>
+          <button class="filter" type="button" data-filter="mind" aria-pressed="false" data-i18n="gal.mind">Mind</button>
+          <button class="filter" type="button" data-filter="spaces" aria-pressed="false" data-i18n="gal.spaces">Spaces</button>
+        </div>
+        <ul class="gallery" id="gallery-grid">
+          <li class="g-item g-item--square" data-cat="art">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="g-painting.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="Dawn garden, abstract study" data-i18n-alt="gal.i1"></span>
+              <span class="g-cap" data-i18n="gal.i1">Dawn garden, abstract study</span>
+            </button>
+          </li>
+          <li class="g-item" data-cat="art">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="painting.webp" width="1400" height="764" loading="lazy" decoding="async" alt="The painter's palette" data-i18n-alt="gal.i2"></span>
+              <span class="g-cap" data-i18n="gal.i2">The painter's palette</span>
+            </button>
+          </li>
+          <li class="g-item" data-cat="mind">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="g-books.webp" width="1400" height="764" loading="lazy" decoding="async" alt="Shelves of quiet thought" data-i18n-alt="gal.i3"></span>
+              <span class="g-cap" data-i18n="gal.i3">Shelves of quiet thought</span>
+            </button>
+          </li>
+          <li class="g-item" data-cat="mind">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="g-concept.webp" width="1400" height="764" loading="lazy" decoding="async" alt="A door into the mind" data-i18n-alt="gal.i4"></span>
+              <span class="g-cap" data-i18n="gal.i4">A door into the mind</span>
+            </button>
+          </li>
+          <li class="g-item" data-cat="spaces">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="g-workspace.webp" width="1400" height="764" loading="lazy" decoding="async" alt="A light-filled studio" data-i18n-alt="gal.i5"></span>
+              <span class="g-cap" data-i18n="gal.i5">A light-filled studio</span>
+            </button>
+          </li>
+          <li class="g-item" data-cat="spaces">
+            <button class="g-btn" type="button">
+              <span class="g-frame"><img src="about.webp" width="1376" height="768" loading="lazy" decoding="async" alt="A desk by the window" data-i18n-alt="gal.i6"></span>
+              <span class="g-cap" data-i18n="gal.i6">A desk by the window</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Contact -->
+    <section class="section section--cream" id="contact" aria-labelledby="contact-title">
+      <div class="container contact reveal">
+        <p class="label" data-i18n="contact.label">Contact</p>
+        <h2 class="h2" id="contact-title" data-i18n="contact.title">Let's connect</h2>
+        <p class="contact__line" data-i18n="contact.line">Open to conversations about psychology, research and art.</p>
+        <div class="contact__links" id="contactLinks">
+          <p class="contact__soon" data-i18n="contact.soon">Contact details coming soon.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__copy"><bdi dir="ltr">© 2026 Hanieh Motamedi</bdi> · <bdi lang="fa" dir="rtl">حانیه معتمدی</bdi></p>
+        <p class="footer__tag" data-i18n="footer.tag">Psychology · Research · Art</p>
+      </div>
+      <a class="totop" href="#home" data-i18n-aria="footer.top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbCaption" hidden>
+    <div class="lightbox__backdrop" data-close></div>
+    <div class="lightbox__box">
+      <button class="lb-btn lb-close" type="button" data-close aria-label="Close" data-i18n-aria="lb.close">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <figure class="lightbox__figure" id="lbFigure">
+        <figcaption class="lightbox__cap" id="lbCaption"></figcaption>
+      </figure>
+      <button class="lb-btn lb-prev" type="button" id="lbPrev" aria-label="Previous image" data-i18n-aria="lb.prev">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="lb-btn lb-next" type="button" id="lbNext" aria-label="Next image" data-i18n-aria="lb.next">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+  <!-- Upload check: if any file was not uploaded to GitHub, show a clear message instead of a silently broken page. -->
+  <script>
+  window.addEventListener('load', function () {
+    var missing = [];
+    if (!getComputedStyle(document.documentElement).getPropertyValue('--purple').trim()) missing.push('style.css');
+    if (!window.__hmMainLoaded) missing.push('main.js');
+    var img = document.querySelector('img[src^=""]');
+    if (img && img.complete && img.naturalWidth === 0) missing.push('');
+    if (!missing.length) return;
+    var d = document.createElement('div');
+    d.setAttribute('role', 'alert');
+    d.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:99999;padding:14px 16px;border-radius:12px;background:#4B3F66;color:#fff;font:15px/1.5 system-ui,sans-serif;box-shadow:0 8px 24px rgba(0,0,0,.25)';
+    d.innerHTML = '<strong>Files missing on the server:</strong> ' + missing.join(', ') +
+      '<br>Upload all files into the same folder as index.html (see README.md). ' +
+      '<span dir="rtl" lang="fa" style="display:block;margin-top:6px">همه‌ی فایل‌ها را کنار index.html بارگذاری کنید.</span>';
+    document.body.appendChild(d);
+  });
+  </script>
+</body>
+</html>
